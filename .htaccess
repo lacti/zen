@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(thread|user|category|comment|tag|attach)/([^/]+)/([^/]+)/([^/]+)  index.php/$1/$2/$3/$4
+RewriteRule ^(thread|user|category|comment|tag|attach)/([^/]+)/([^/]+)  index.php/$1/$2/$3
+RewriteRule ^(thread|user|category|comment|tag|attach)/([^/]+)  index.php/$1/$2

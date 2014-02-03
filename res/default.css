@@ -1,0 +1,279 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Courier New", "맑은 고딕", shelvetica, arial, freesans, clean, sans-serif;
+}
+body {
+	font: normal normal normal 12px/normal "Courier New", "맑은 고딕", shelvetica, arial, freesans, clean, sans-serif;
+	line-height: 1.4em;
+}
+input,
+textarea {
+	line-height: 1.4em;
+}
+.syntaxhighlighter {
+	line-height: 1.5em;
+	margin: 4px 0px;
+	border: 1px solid #ddd;
+	font-family: "Courier New", "맑은 고딕";
+}
+
+.syntaxhighlighter {
+	margin: 4px 4px 8px 2px;
+	padding: 10px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: none;
+	color: #F8F8F8;
+	background-color: #0C1021;
+	-webkit-box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.8);
+	box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.8);
+}
+.syntaxhighlighter table {
+	width: 100%;
+}
+.syntaxhighlighter .gutter .line {
+	padding-right: 4px;
+}
+.syntaxhighlighter .code .line {
+	padding-left: 4px;
+}
+a {
+	color: #4183C4;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h2 {
+	font-size: 190%;
+	margin-bottom: 1ex;
+}
+.sideTitle {
+	font-weight: bold;
+	padding: 4px 4px;
+	margin: 0px -4px;
+	border-bottom: 1px dotted #999;
+}
+.sideMain ul {
+	list-style: none;
+}
+.sideMain ul li {
+	padding: 1ex 0px 0ex 0px;
+}
+.sideMain ul li a {
+	font-size: 120%;
+}
+.meta {
+	color: #888;
+	font-size: 90%;
+}
+.published {
+	color: #CCC;
+}
+.writer {
+	font-size: 120%;
+	margin-bottom: 1em;
+}
+#sideWrap {
+	float: right;
+}
+.sideMain {
+	background: #eee;
+	border: 1px solid #ddd;
+	margin-bottom: 1ex;
+	width: 22em;
+	padding: 0ex 1em 1ex 1em;
+	word-break: break-all;
+}
+.sideMain #categories li,
+.sideMain .tags li {
+	float: left;
+	margin-right: 8px;
+}
+#tagList .tags {
+	list-style: none;
+	margin-left: 2em;
+}
+#tagList .tags li {
+	float: left;
+	margin-right: 8px;
+}
+#contentWrap {
+	float: left;
+}
+.content {
+	width: 54.5em;
+	border: 1px solid #ddd;
+	padding: 1em;
+	line-height: 2em;
+}
+.content h2 span.tools {
+	font-size: 11px;
+	color: #ddd;
+}
+.content h2 a.tools {
+	font-size: 11px;
+	color: #888;
+}
+#attachments {
+	list-style: none;
+}
+#attachments li {
+	padding-left: 18px;
+	background: url('/res/attach.gif') no-repeat 0px 5px;
+}
+#footerWrap {
+	clear: both;
+}
+
+#bodyWrap {
+	width: 82em;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#headerWrap {
+	background: #156121;
+	border: 1px solid #ddd;
+	margin-bottom: 1em;
+	background: #156121 url('/res/title.png') no-repeat;
+	height: 55px;
+}
+
+#user {
+	float: right;
+}
+
+#user input[type=text],
+#user input[type=password] {
+	background: #156121 !important;
+	border: 0;
+	border-bottom: 1px solid white;
+	width: 8em;
+	color: white;
+}
+#user label {
+	color: white;
+	width: 3em;
+}
+.hidden {
+	width: 0px;
+	height: 0px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.pageTitle {
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 2px solid #efefef;
+	margin-bottom: 1em;
+	padding: 1ex;
+}
+
+#userCreate dt {
+	float: left;
+}
+
+#userCreate dt label {
+	display: block;
+	width: 12em;
+	text-align: right;
+	margin-right: 1em;
+	font-weight: bold;
+}
+
+#userCreate dd input {
+	width: 28em;
+}
+
+#userCreate dd,
+#userCreate dt {
+	padding: 2ex;
+}
+#userCreate dd {
+	margin: 2px 0px;
+}
+
+.commentArea {
+	margin-top: 1em;
+}
+.commentArea #commentTitle {
+	border-top: 1px solid #ddd;
+	background-color: #eee;
+	font-size: 88%;
+	font-weight: bold;
+	padding-left: 8px;
+}
+.list {
+	list-style: none;
+}
+.commentArea .list {
+	border-top: 1px dotted #d9d9d9;
+}
+.commentArea .list li dl dt {
+	float: right;
+	margin-left: 6px;
+	padding-left: 6px;
+	border-left: 1px solid #e1e1e1;
+	background: white;
+}
+.list li {
+	border-bottom: 1px dotted #d9d9d9;
+	padding: 6px 0px;
+}
+.list li dl dd.description {
+	word-break: break-all;
+	padding-left: 16px;
+}
+.list li dl dd div ul.commentAttachments {
+	list-style: none;
+}
+.list li dl dd div ul.commentAttachments li {
+	padding-left: 18px;
+	margin-right: 6px;
+	background: url('/res/attach.gif') no-repeat 0px 5px;
+	float: left;
+	border: 0px;
+}
+.list li dl dd div.commentAttachmentClear {
+	clear: left;
+}
+.list li dl dt a span.subject {
+	font-size: 120%;
+	font-weight: bold;
+}
+.list li dl dt span.author {
+	color: #333;
+}
+.list li dl dt span.date {
+	color: #999;
+	font-size: 90%;
+}
+.list li dl dt span.commentCount {
+	color: #aaa;
+	font-size: 88%;
+}
+.sideMain ul li span.commentCount {
+	color: #aaa;
+	font-size: 88%;
+}
+
+#searchWrap {
+	margin-bottom: 8px;
+}
+#searchWrap #searchKeyword {
+	width: 45em;
+	margin-right: 1em;
+	border-width: 0px;
+	border-bottom-width: 1px;
+}
+#searchWrap #searchButton {
+	padding: 0px 4px;
+	border-width: 0px;
+}
+

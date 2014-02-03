@@ -1,0 +1,6 @@
+<?php
+$dbconf['host'] = 'localhost';
+$dbconf['user'] = 'user';
+$dbconf['pw'] = 'pw';
+$dbconf['dbname'] = 'db';
+?>
